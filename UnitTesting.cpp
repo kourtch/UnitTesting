@@ -15,7 +15,7 @@ int EXPECT_EQUAL(int A, int B)
     else
     {
         std::cout << "FAILED" << std::endl;
-        return 1;
+        return 0;
     }
 }
 
